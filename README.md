@@ -1,5 +1,6 @@
 # Django-To-do-List-App
-The To-do List app allows a user create to create a list to which tasks can be added. Upon completion, the user may check the box beside the task.
+With the help of the To-Do List app, users can create lists to which tasks can be added. The user may check the box next to the task when it is finished.
+By opening a new account, users are able to create separate profiles.
 
 ## User Interface:
 
