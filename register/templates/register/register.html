@@ -1,0 +1,15 @@
+{% extends "main/base.html" %}
+
+{% block title %}Create an Account{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block pagename %}<h1 class="mt-2">To-do List App</h1>{% endblock %}
+
+{% block content %}
+    <form method="POST" class="form-group">
+        {% csrf_token %}
+        {{form|crispy}}
+       <button type="submit" class="btn btn-success">Sign up</button>
+       <p>If you already have an account, <a href="/login">login</a></p>
+    </form>
+{% endblock %}
